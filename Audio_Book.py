@@ -1,5 +1,6 @@
 import pyttsx3
 
+string = "Stay Home, Stay Safe"
 speaks = pyttsx3.init()
-speaks.say("Stay Home, Stay Safe")
+speaks.say(string)
 speaks.runAndWait()
